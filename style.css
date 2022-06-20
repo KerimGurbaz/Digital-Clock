@@ -1,0 +1,84 @@
+.main_container {
+  position: relative;
+  top: 10rem;
+  margin: auto;
+  width: 30rem;
+  height: 20rem;
+  background-color: #003373;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+h2 {
+  color: aqua;
+}
+
+.container {
+  border: 2px solid yellowgreen;
+  border-radius: 1rem;
+  width: 13rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hour,
+.minute,
+.second,
+.colon {
+  width: 3rem;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(169, 230, 49);
+}
+
+.hour {
+  margin-left: 1rem;
+}
+
+.second {
+  margin-right: 1rem;
+}
+.date {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  border-radius: 0.25rem;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+@media screen and(max-width) {
+  .main_container {
+    position: relative;
+    top: 10rem;
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .container {
+    border: 2px solid yellowgreen;
+    border-radius: 1rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .colon {
+    display: none;
+  }
+  .hour {
+    margin-left: 0;
+  }
+  .second {
+    margin-right: 0;
+  }
+}
