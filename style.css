@@ -4,7 +4,7 @@
   margin: auto;
   width: 30rem;
   height: 20rem;
-  background-color: #003373;
+  background-color: #feec84;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,11 @@
   color: white;
 }
 h2 {
-  color: aqua;
+  color: #534e96;
 }
 
 .container {
-  border: 2px solid yellowgreen;
+  border: 2px solid #50f9dd;
   border-radius: 1rem;
   width: 13rem;
   text-align: center;
@@ -32,7 +32,7 @@ h2 {
   width: 3rem;
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(169, 230, 49);
+  color: #b66dfc;
 }
 
 .hour {
@@ -46,7 +46,7 @@ h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   border-radius: 0.25rem;
-  color: greenyellow;
+  color: #b66dfc;
   padding: 1rem;
 }
 
